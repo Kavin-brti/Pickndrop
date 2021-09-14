@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--BootStrap-->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <!--Fire-base-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="/JS/register.js"></script>
+    <!--//-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickNdroP | Register</title>
+        <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+rel="stylesheet"
+/>
+     
+        <link rel="icon" href="../Images/logo.png">
+        <link rel="stylesheet" href="/CSS/log.css">
+        <
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  
+    <header>
+        <h1 class="title">PickNdroP <i class="fas fa-envelope"></i> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+   
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+              <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
+            </div>
+           
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+              <form>
+                <!--Name-->
+                  <div class=" mb-4">
+                    <label class="form-label" for="form1Example13">User name</label>
+                    <input type="name" id="name"  class="form-control form-control-lg" />
+                    
+                  </div>
+                <!-- Email input -->
+                <div class="mb-4">
+                  <label class="form-label" for="form1Example13">Email address</label>
+                  <input type="email" id="email" class="form-control form-control-lg" />
+               
+                </div>
+      
+                <!-- Password input -->
+                <div class="mb-4">
+                  <label class="form-label" for="form1Example23">Password</label>
+                  <input type="password" id="password" class="form-control form-control-lg" />
+                  
+                </div>
+                <!--Confirm Password-->
+                <div class="mb-4">
+                    <label class="form-label" for="form1Example13">Confirm Password</label>
+                    <input type="password" id="confirmPwd" class="form-control form-control-lg" />
+                    
+                  </div>
+      
+                <div class="d-flex justify-content-around align-items-center mb-4">
+                  <!-- Checkbox -->
+                 
+                  
+                </div>
+      
+                <!-- Submit button -->
+                
+                <button type="submit" class="btn btn-primary btn-lg btn-block sub " onClick= "signUp()"><a href="/index.html">Sign up</a></button>
+               <br/>
+               
+      
+
+              </form>
+             
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+          setTimeout(function(){
+              $('.loader_bg').fadeToggle();
+          }, 1500);
+      </script>
+   
+</body>
+</html>

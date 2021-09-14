@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="google-signin-client_id" content="996442511218-6mgca3c2g11q4jeb0cd4t1630f56oepo.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="icon" href="../Images/logo.png">
+    <title>PickNdroP | Logout</title>
+</head>
+<style>
+    h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size:1.2em;
+    }
+    a:hover{
+        text-decoration: none;
+        padding-bottom:9px;
+        border-bottom:2px solid #3370f3;
+    }
+    .jumbotron{
+        margin:0px auto;
+        margin-top:100px;
+    }
+</style>
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+      </div>
+    <img class="logo" src="/Images/logo.png" alt="logo" width="80px" height="80px">
+    <header>
+        <h1 class="title">PickNdroP <span class="glyphicon glyphicon-envelope"></span> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Logged Out</h1>
+          <p>You have Logged out Successfully from your Account.</p>
+        </div>
+        <a href="../index.html">Login?</a>
+        
+      </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 1500);
+</script>
+</html>

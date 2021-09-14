@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <link rel="icon" href="../Images/logo.png">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>PickNdroP | Home</title>
+</head>
+
+<body >
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+<div class="media">
+    <img class="logo" src="/Images/logo.png" alt="logo" width="80px" height="80px">
+    <header>
+        <h1 class="title">PickNdroP <span class="glyphicon glyphicon-envelope"></span> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+</div>
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/index.html">PNP</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./tracking.html">Tracking</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./testimonial.html"><span class="glyphicon glyphicon-user"></span>Testimonial</a></li>
+        <li><a href="./logout.html"><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
+        <li><a href="./contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+   <br/>
+
+    <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Courier Type
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Documents</a></li>
+          <li><a href="#">Parcel</a></li>
+        </ul>
+      </div>
+
+<hr/>
+<br/>
+<div class="inputs">
+<div class="form">
+    <form class="form-group" id="form-from" method="POST">
+        <div class="container">
+          
+          <div class="from">
+            <h3>From-Pick</h3>
+            <div class="col-xs-2"><br/>
+              <label for="dNo">Door No</label>
+              <p><input class="form-control" type="text" placeholder="Door No" name="Dno"  ></p>
+            </div><br/>
+            <div class="col-xs-4">
+                <label for="dNo">Street Name</label>
+                <p><input class="form-control" type="text" placeholder="Street Name" name="street" ></p>
+                <label for="dNo">Town</label>
+                <p><input class="form-control" type="text" placeholder="Town" name="town" ></p>
+                <label for="dNo">City</label>
+                <p><input class="form-control" type="text" placeholder="City" name="city" ></p>
+                <label for="dNo">Pin Code</label>
+                <p><input class="form-control" type="text" placeholder="pin-Code" name="pin" ></p>
+                <label for="dNo">Land Mark</label>
+                <p><input class="form-control" type="text" placeholder="Land Mark" name="lMark" ></p>
+                <label for="dNo">Contact Number</label>
+                <p><input class="form-control" type="number" placeholder="Mobile Number" name="Mno" ></p>  
+          </div>
+          <button type="submit" id="from-btn" class="btn btn-warning col-lg-2 sub-from">Submit</button>
+          </div>
+          </div>
+</form>
+</div>
+<div class="form">
+  <form class="form-group" id="to-form" method="POST" >
+      <div class="container">
+        
+        <div class="to">
+          <h3 class="to-title">To-Drop</h3>
+          <div class="col-xs-4">
+            <label for="dNo">Door No</label>
+            <p><input class="form-control" type="text" placeholder="Door No" name="Dno"  ></p>
+          </div>
+          <div class="col-lg-8">
+              <label for="dNo">Street Name</label>
+              <p><input class="form-control" type="text" placeholder="Street Name" name="street" ></p>
+              <label for="dNo">Town</label>
+              <p><input class="form-control" type="text" placeholder="Town" name="town" ></p>
+              <label for="dNo">City</label>
+              <p><input class="form-control" type="text" placeholder="City" name="city" ></p>
+              <label for="dNo">Pin Code</label>
+              <p><input class="form-control" type="text" placeholder="pin-Code" name="pin" ></p>
+              <label for="dNo">Land Mark</label>
+              <p><input class="form-control" type="text" placeholder="Land Mark" name="lMark" ></p>
+              <label for="dNo">Contact Number(Receipient)</label>
+              <p><input class="form-control" type="number" placeholder="Mobile Number" name="Mno" ></p>  
+        </div>
+        <button type="submit" id="to-btn" class="btn btn-warning col-lg-4 sub-to">Submit</button>
+       
+      </div>
+        
+</form>
+</div>
+</div>
+<div class="form-inline">
+  <form class="form-group ">
+      <div class="container">
+        <br/>
+        <!-- About the Parcel -->
+        <div class="container-fluid">
+          <form class="form-inline">
+          <h4>Whatabouts of Item:</h4>
+            <label for="weight">Weight</label>
+            <div class="input-group col-xs-3">
+              <input class="form-control" type="number" placeholder="Weight" name="weight" required>
+              <span class="input-group-addon"><i>kg</i></span>
+          </div>
+           
+        <h4>Dimensions of the Parcel:</h4>
+        <div class="dim">
+          <label for="weight">Length</label>
+          <div class="input-group col-xs-3">
+            <input class="form-control" type="number" placeholder="Length" name="length" required>
+            <span class="input-group-addon"><i>cm</i></span>
+        </div>
+            
+        <label for="weight">Breadth</label>
+        <div class="input-group col-xs-3">
+          <input class="form-control" type="number" placeholder="Breadth" name="breadth" required>
+          <span class="input-group-addon"><i>cm</i></span>
+      </div>
+
+      <label for="weight">Height</label>
+      <div class="input-group col-xs-3">
+        <input class="form-control" type="number" placeholder="Height" name="height" required>
+        <span class="input-group-addon"><i>cm</i></span>
+    </div>
+        </div>
+        
+</form>
+</div>
+
+        </form>
+</div><br/><br/><br/>
+        <a href="/Htmls/tracking.html">
+          <button class="btn btn-success col-md-2 shift">Shift</button>
+          </a>
+<hr/>
+
+
+<br/>
+<br/>
+
+<div class="image">
+    <img class='image1' src="/Images/send.jpg" alt="send">
+    <img class='image1' src="/Images/sign.jpg" alt="send">
+    <img class='image1' src="/Images/give.jpg" alt="send">
+</div>
+
+<!-- Review -->
+<br/>
+<div class="mod">
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Review</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg">
+<!-- Modal content-->
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title">Opinion</h4>
+  </div>
+  <div class="reviewer">
+    <div class="input-group col-xs-6">
+    <input type="text" placeholder="Name"/>
+    <input type="text" placeholder="Mobile number"/>
+    <input type="text" placeholder="Email-ID"/>
+</div>
+  </div>
+  <div class="modal-body">
+    <div class="radio">
+        <label><input type="radio" name="optradio" checked>Excellent</label><br/>
+      </div><br/>
+      <div class="radio">
+        <label><input type="radio" name="optradio">Appreaciable</label><br/>
+      </div><br/>
+      <div class="radio ">
+        <label><input type="radio" name="optradio" disabled>Not bad</label><br/>
+      </div><br/>
+      <div class="radio ">
+        <label><input type="radio" name="optradio" disabled>Need More Care</label><br/>
+      </div><br/>
+
+  </div>
+  <button class="btn btn-danger">Submit</button>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<!--Footer-->
+<footer>
+  <br/><br/>
+<div class="footer navbar navbar-bottom">
+  <div class="container footer">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 ">
+                      <h5>PickParcel.com</h5>
+                      <hr>
+                      <ul>
+                          <li><a href="http://www.pickndrop.com/">Home </a></li>
+                          <li><a href="/Htmls/about.html">About Us </a></li>
+                          <li><a href="#">Services </a></li>
+                          <li><a href="/Htmls/contact.html">Contact us </a></li>
+                          <li><a href="#">Testimonials </a></li>
+                          <li><a href="#">Sale Tax Forms </a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6 ">
+                      <h5>Send Couriers</h5>
+                      <hr>
+                      <ul>
+                          <li><a href="">Courier Services in Delhi </a></li>
+                          <li><a href="">Courier Services in Mumbai </a></li>
+                          <li><a href="">Courier Services in Bangalore </a></li>
+                          <li><a href="">Courier Services in Chennai </a></li>
+                          <li><a href="">Courier Services in Kolkata </a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6 ">
+                      <h5>Send Couriers</h5>
+                      <hr>
+                      <ul>
+                          <li><a href="">Courier Services in Gurgaon </a></li>
+                          <li><a href="">Courier Services in Hyderabad </a></li>
+                          <li><a href="">Courier Services in Pune </a></li>
+                          <li><a href="">Courier Services in Ahmedabad </a></li>
+                          <li><a href="">Courier Services in Lucknow </a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6 ">
+                      <h5>About Us</h5>
+                      <hr>
+                      <ul>
+                          <li><a href="">My Account </a></li>
+                          <li><a href="">Tracking </a></li>
+                          <li><a href="">Bulk Shipping </a></li>
+                          <li><a href="">Prohibited &amp; Restricted Items </a></li>
+                      </ul>
+                  </div>
+               
+                  </div>
+                  
+              </div>
+          </div>
+                          
+      </div>
+
+      <div class="copyright">
+          <hr>
+          <div class="row">
+              <div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+          
+                  Copyright © 2020 PickNdroP.com. All Rights Reserved. 
+              </div>
+              <div class="col-sm-6 col-lg-6 col-md-6 hidden-xs footer-navigation">
+                  <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                  <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                  <a href="">Refund Policy </a>
+              </div>
+              <div class="col-xs-12 visible-xs props ">
+                <hr>
+                  <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                  <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                  <a href="">Refund Policy </a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+</footer>
+<script src="/JS/index.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 1500);
+</script>
+</html>

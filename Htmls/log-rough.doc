@@ -1,0 +1,353 @@
+<div >
+    <img class="logo" src="/Images/logo.png" alt="logo" width="80px" height="80px">
+    <header>
+        <h1 class="title">PickNdroP <span class="glyphicon glyphicon-envelope"></span> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+</div>
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../index.html">PNP</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/Htmls/about.html">About</a></li>
+        <li><a href="/Htmls/tracking.html">Tracking</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Htmls/register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="/Htmls/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="/Htmls/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<hr/>
+<br/><br/><br/><br/>
+<div class="form">
+    <form action="action_page.php" method="post">
+      <h1 class="title">Login</h1>
+      <div class="container ">
+        <div class="credit">
+          <!-- <label for="uname"><b>Username</b></label> -->
+          <div class="imgcontainer">
+            <img src="/Images/login.png" alt="Avatar" width="250" height="200">
+          </div>
+          <div class="input">
+            <div class="input-group col-xs-3">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input class="form-control" type="text" placeholder="Enter Username" name="uname" required>
+            </div><br/>
+            <div class="input-group col-xs-3">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
+            </div><br/>
+                  <div class="login">
+                    <a class="btn btn-primary" href="/Htmls/logged.html">
+                      Login
+                    </a> &nbsp;
+                    <input type="checkbox" checked="checked" name="remember">Remember me
+                  </div>  
+          </div>
+     
+        
+           
+        
+          <br/><br/>
+          <div>
+            <a class="reg" href="/Htmls/register.html">
+              <button class="btn btn-info" type="button" >Register Now</button>
+            </a>
+            <br/><br/>
+            <span class="psw">Forgot <a class="text-danger" href="#">password?</a></span>
+          </div>
+        </div>
+      </div>
+       
+      </form>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<!--Footer-->
+<footer>
+  <div class="footer navbar navbar-bottom">
+    <div class="container footer">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 ">
+                        <h5>PickParcel.com</h5>
+                        <hr>
+                        <ul>
+                            <li><a href="http://www.pickndrop.com/">Home </a></li>
+                            <li><a href="/Htmls/about.html">About Us </a></li>
+                            <li><a href="#">Services </a></li>
+                            <li><a href="/Htmls/contact.html">Contact us </a></li>
+                            <li><a href="#">Testimonials </a></li>
+                            <li><a href="#">Sale Tax Forms </a></li>
+                       </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <h5>Send Couriers</h5>
+                        <hr>
+                        <ul>
+                            <li><a href="">Courier Services in Delhi </a></li>
+                            <li><a href="">Courier Services in Mumbai </a></li>
+                            <li><a href="">Courier Services in Bangalore </a></li>
+                            <li><a href="">Courier Services in Chennai </a></li>
+                            <li><a href="">Courier Services in Kolkata </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <h5>Send Couriers</h5>
+                        <hr>
+                        <ul>
+                            <li><a href="">Courier Services in Gurgaon </a></li>
+                            <li><a href="">Courier Services in Hyderabad </a></li>
+                            <li><a href="">Courier Services in Pune </a></li>
+                            <li><a href="">Courier Services in Ahmedabad </a></li>
+                            <li><a href="">Courier Services in Lucknow </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <h5>About Us</h5>
+                        <hr>
+                        <ul>
+                            <li><a href="">My Account </a></li>
+                            <li><a href="">Tracking </a></li>
+                            <li><a href="">Bulk Shipping </a></li>
+                            <li><a href="">Prohibited &amp; Restricted Items </a></li>
+                        </ul>
+                    </div>
+                 
+                    </div>
+                    
+                </div>
+            </div>
+                            
+        </div>
+  
+        <div class="copyright">
+            <hr>
+            <div class="row">
+                <div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+            
+                    Copyright © 2020 PickNdroP.com. All Rights Reserved. 
+                </div>
+                <div class="col-sm-6 col-lg-6 col-md-6 hidden-xs footer-navigation">
+                    <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                    <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                    <a href="">Refund Policy </a>
+                </div>
+                <div class="col-xs-12 visible-xs props ">
+                  <hr>
+                    <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                    <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                    <a href="">Refund Policy </a>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+  </div>
+  </footer>
+
+
+
+
+
+
+
+
+  Register
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="996442511218-6mgca3c2g11q4jeb0cd4t1630f56oepo.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/CSS/register.css">
+    <link rel="icon" href="../Images/logo.png">
+    <title>PickNdroP | Register</title>
+</head>
+
+<body>
+<div class="media">
+    <img class="logo" src="/Images/logo.png" alt="logo" width="80px" height="80px">
+    <header>
+        <h1 class="title">PickNdroP <span class="glyphicon glyphicon-envelope"></span> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+</div>
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../index.html">PNP</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/Htmls/about.html">About</a></li>
+        <li><a href="/Htmls/tracking.html">Tracking</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/Htmls/register.html"><span class="glyphicon glyphicon-user"></span>Testimonial</a></li>
+        <li><a href="/Htmls/logout.html"><span class="glyphicon glyphicon-log-in"></span> Log Out</a></li>
+        <li><a href="/Htmls/contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+   <br/>
+</div>
+<hr/>
+<br/><br/><br/>
+<div class="form">
+    <h3 class="title">Register Now</h3>
+    <div class="container">
+        <div class="input-group col-xs-3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input class="form-control" type="text" placeholder="Enter Username" name="uname" required>
+        </div><br/>
+        <div class="input-group col-xs-3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+            <input class="form-control" type="number" placeholder="Enter Contact number" name="uname" required>
+        </div><br/>
+        <div class="input-group col-xs-3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input class="form-control" type="text" placeholder="Enter Email Address" name="uname" required>
+        </div><br/>
+        <div class="input-group col-xs-3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input class="form-control" type="password" placeholder="Enter Password" name="uname" required>
+        </div><br/>
+        <div class="input-group col-xs-3">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input class="form-control" type="password" placeholder="Re-Enter Password" name="uname" required>
+        </div><br/>
+        
+       <!-- Control  -->
+        <div class="control">
+            <div class="reg-btn">
+            <a href="/Htmls/index.html">
+                <button class="btn btn-success"type="button">
+                    Register
+                </button>
+            </a><br/><br/>
+    <!--Google-->
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div><br/>
+    <button class="btn btn-danger logout" type="button" onclick="logout()">
+        Log out
+    </button>
+    </div>
+    <script src="/JS/reg.js"></script>
+<br/>
+            <div>
+                <i>alreadyRegistered?</i> 
+                <a href="/Htmls/login.html">
+                    <button class="btn btn-info"type="button">
+                        Login
+                    </button>
+                </a>
+            </div>
+       
+        </div>
+    </div>
+
+ 
+
+
+
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<!--Footer-->
+<footer>
+    <div class="footer navbar navbar-bottom">
+      <div class="container footer">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="row">
+                      <div class="col-md-3 col-sm-6 ">
+                          <h5>PickParcel.com</h5>
+                          <hr>
+                          <ul>
+                              <li><a href="http://www.pickndrop.com/">Home </a></li>
+                              <li><a href="/Htmls/about.html">About Us </a></li>
+                              <li><a href="#">Services </a></li>
+                              <li><a href="/Htmls/contact.html">Contact us </a></li>
+                              <li><a href="#">Testimonials </a></li>
+                              <li><a href="#">Sale Tax Forms </a></li>
+                         </ul>
+                      </div>
+                      <div class="col-md-3 col-sm-6 ">
+                          <h5>Send Couriers</h5>
+                          <hr>
+                          <ul>
+                              <li><a href="">Courier Services in Delhi </a></li>
+                              <li><a href="">Courier Services in Mumbai </a></li>
+                              <li><a href="">Courier Services in Bangalore </a></li>
+                              <li><a href="">Courier Services in Chennai </a></li>
+                              <li><a href="">Courier Services in Kolkata </a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-3 col-sm-6 ">
+                          <h5>Send Couriers</h5>
+                          <hr>
+                          <ul>
+                              <li><a href="">Courier Services in Gurgaon </a></li>
+                              <li><a href="">Courier Services in Hyderabad </a></li>
+                              <li><a href="">Courier Services in Pune </a></li>
+                              <li><a href="">Courier Services in Ahmedabad </a></li>
+                              <li><a href="">Courier Services in Lucknow </a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-3 col-sm-6 ">
+                          <h5>About Us</h5>
+                          <hr>
+                          <ul>
+                              <li><a href="">My Account </a></li>
+                              <li><a href="">Tracking </a></li>
+                              <li><a href="">Bulk Shipping </a></li>
+                              <li><a href="">Prohibited &amp; Restricted Items </a></li>
+                          </ul>
+                      </div>
+                   
+                      </div>
+                      
+                  </div>
+              </div>
+                              
+          </div>
+    
+          <div class="copyright">
+              <hr>
+              <div class="row">
+                  <div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+              
+                      Copyright © 2020 PickNdroP.com. All Rights Reserved. 
+                  </div>
+                  <div class="col-sm-6 col-lg-6 col-md-6 hidden-xs footer-navigation">
+                      <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                      <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                      <a href="">Refund Policy </a>
+                  </div>
+                  <div class="col-xs-12 visible-xs props ">
+                    <hr>
+                      <a href="">Terms &amp; Conditions </a> <span class="spacer">|</span>
+                      <a href="">Privacy Policy </a> <span class="spacer">|</span>
+                      <a href="">Refund Policy </a>
+                  </div>
+              </div>
+          </div>
+    
+      </div>
+    </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--BootStrap-->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <!--Google Chrome-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="/JS/register.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickNdroP | Login</title>
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+        rel="stylesheet"
+        />
+        
+        <link rel="icon" href="../Images/logo.png">
+        <link rel="stylesheet" href="/CSS/log.css">
+        
+</head>
+<style>
+  .forpw:hover{
+    color:tomato;
+    cursor:pointer;
+  }
+
+ 
+</style>
+<body>
+    
+  
+    <header>
+        <h1 class="title">PickNdroP <i class="fas fa-envelope"></i> Postal Service</h1>
+        <p>Get it Soon.!</p>
+    </header>
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+          <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+              <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
+            </div>
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+              <form>
+                <!-- Email input -->
+                <div class="mb-4">
+                  <label class="form-label" for="form1Example13">Email address</label>
+                  <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                  
+                </div>
+      
+                <!-- Password input -->
+                <div class="mb-4">
+                  <label class="form-label" for="form1Example23">Password</label>
+                  <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                  
+                </div>
+      
+                <div class="d-flex justify-content-around align-items-center mb-4">
+                  <!-- Checkbox -->
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="form1Example3"
+                      checked
+                    />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                  </div class="tooltips">
+                   <a class="forpw" title="Relax and Remember">Forgot password?</a>
+                </div>
+      
+                <!-- Submit button -->
+                <button type="button" class="btn btn-primary btn-lg btn-block sub"><a href="./Htmls/home.html" onClick="signIn()">Sign in</a></button>
+      
+                <div class="divider d-flex align-items-center my-4">
+                  <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block sub"><a href="../Htmls/register.html">Sign up</a></button>
+               <br/>
+               
+                <br/>
+                
+            
+      
+
+              </form>
+              <!--Signout-->
+              <a href="#" onclick="signOut();">Sign out</a>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- <script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+      }
+      function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+          console.log('User signed out.');
+        });
+      }
+</script>
+
+<script type="module">
+  
+</script> -->
+
+
+
+</body>
+</html>
