@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #3370f3;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+  .title { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+  }
+    .card{
+        padding:12px;
+        border:1px solid black;
+        margin:25px 50px;
+        border-radius:14px;
+        
+    }
+    .card:hover{
+        cursor:pointer;
+        padding:12px;
+        box-shadow: 1px 2px 5px;
+      
+    }
+    .container-fluid{
+      margin-left:60px;
+    }
+    header{
+        text-align: center;
+        color:#3370f3;
+        font-family: 'Montserrat', sans-serif;
+    }
+    header h2{
+        margin-left:-50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar {
+        margin-bottom: 0;
+        background-color: #080200;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+      }
+      
+      .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+      }
+      
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #f4511e !important;
+        background-color: #fff !important;
+      }
+      
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+      }
+      .card-header{
+        font-family: 'Ubuntu', sans-serif;
+      }
+      .logo{
+        padding-top:16px;
+        padding-bottom:-19px;}
+        header{
+          margin-top:-80px;
+      }
+      .card{
+        background-color: #dfdfdf;
+        transition: background-color 1s ease-in-out 0s;
+        
+      }
+     
+      .card:hover{
+        background-color: #fffcfc;
+        animation: myAnim 2s ease 0s 1 normal forwards;
+      }
+      @keyframes myAnim {
+        0%,
+        100% {
+          transform: translateX(0%);
+          transform-origin: 50% 50%;
+        }
+      
+        15% {
+          transform: translateX(-30px) rotate(-6deg);
+        }
+      
+        30% {
+          transform: translateX(15px) rotate(6deg);
+        }
+      
+        45% {
+          transform: translateX(-15px) rotate(-3.6deg);
+        }
+      
+        60% {
+          transform: translateX(9px) rotate(2.4deg);
+        }
+      
+        75% {
+          transform: translateX(-6px) rotate(-1.2deg);
+        }
+      }
+      .card-text{
+        font-family: 'Klee One', cursive;
+        font-weight:bolder;
+      }
+      .card-footer{
+        padding:14px;
+      }
+  h3{
+    background-color:#3370f3;
+    font-family: 'Dancing Script', cursive;
+  }
+  .copyright{
+    padding:12px;
+    text-align:center;
+  }
+  .copyright a{
+    color:rgb(255, 255, 255);
+  }
+  .copyright a:hover{
+    cursor: pointer;
+    color:rgb(255, 147, 108);
+  }
